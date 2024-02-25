@@ -46,6 +46,7 @@ function M.setup(config)
 			"*.vue",
 			"*.tsx",
 			"*.php",
+			"*.templ",
 		},
 		callback = function(args)
 			if M.config.enabled then
