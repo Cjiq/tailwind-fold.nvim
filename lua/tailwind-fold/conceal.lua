@@ -9,6 +9,7 @@ local class_fts = {
 	"vue",
 	"php",
 	"blade",
+	"templ",
 }
 function M.conceal_class(bufnr, config)
 	vim.opt_local.conceallevel = 2
